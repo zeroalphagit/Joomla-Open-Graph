@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" version="5.0" method="upgrade">
+    <name>System - Open Graph</name>
+    <author>Zero Alpha Pty Ltd</author>
+    <version>1.0.0</version>
+    <copyright>Zero Alpha Pty Ltd</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <authorUrl>https://github.com/zeroalphagit/Joomla-Open-Graph</authorUrl>
+    <creationDate>2024-07-27</creationDate>
+    <description><![CDATA[
+This Joomla plugin automatically generates Open Graph meta tags for your articles using existing meta data. It enhances social media integration by ensuring that your content is properly represented when shared on platforms like Facebook, Twitter, and LinkedIn.<br />
+For updates, contributions, or improvement suggestions, please visit the project's GitHub page:<br />
+<a href="https://github.com/zeroalphagit/Joomla-Open-Graph" target="_blank" rel="noopener noreferrer">
+    Joomla Open Graph on GitHub
+</a>]]></description>
+    <files>
+        <filename plugin="opengraph">opengraph.php</filename>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB.plg_system_opengraph.ini</language>
+        <language tag="en-GB">en-GB.plg_system_opengraph.sys.ini</language>
+    </languages>
+</extension>
